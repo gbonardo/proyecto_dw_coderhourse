@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #808080;
+}
+
+#header{
+    height: 10vh;
+     
+}
+
+#main{
+    height: 120vh;
+    background-color: #454545;
+    color: white;
+}
+#section{
+    width: 60vw;
+    
+}
+#ul{
+    height: 5vh;
+    width: 30vw;
+    list-style-type: none;
+    
+}
+#ul li a img{
+    width: 3vw;
+    height: 5vh;
+}
+
+#footer{
+    height: 20vh;
+    color: white;
+    
+}
+.navbar-brand{
+    border: 4px solid white;
+    animation-name: cambia-color;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+@keyframes cambia-color {
+    0%{
+        background-color: blue;
+        color: yellow;
+    }
+    25%{
+        background-color: white;
+        color: green;
+
+    }
+    75%{
+        background-color: red;
+        color: white;
+    }
+    100%{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100vw;
+height: 100vh;
+
+}
+header{
+   
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+header input{
+    margin-top: 3vh;
+    margin-left: 20vw;
+    width: 40vw;
+    height: 3vh;
+}   
+header button{
+    width: 10vw;
+    height: 3vh;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+header a{
+    margin-left: 7vw;
+    
+}
+
+main{
+width: 100vw;
+height: 150vh;
+overflow: hidden;
+}
+main nav ul{
+    list-style-type: none;
+}
+#mainFormulariocontacto{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    width: 20vw;
+    height: 150vh;
+    float: left;
+    background-color: #000000;
+    text-align: center;
+}
+section{
+    width: 80vw;
+    height: 150vh;
+    float: right;
+    background-color: #808080;
+    
+}
+section h1{
+    color: #FFFFFF ;
+    margin-top: 2%;
+    text-align: center;
+}
+
+article{
+    width: 60vw ;
+    height: 60vh;
+    margin-top: 2%;
+    margin-left: 11%;
+    background-color: #454545;
+    padding: 2%
+}
+#imagenBeneficios1{
+    margin-top: 4%;
+    margin-left: 17%;
+    width: 40vw;
+    height: 45vh;
+}
+h2{
+    color: #FFFFFF ;
+    text-align: center;
+    margin-bottom: 2%;
+    
+}
+h3{
+    color: #FFFFFF ;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#formularioContacto{
+    width: 60vw ;
+    height: 70vh;
+    margin-top: 2%;
+    margin-left: 11%;
+    background-color: #454545;
+    padding: 2%;
+}
+input{
+    
+    background-color: #fbfbfb; 
+    width: 70%; 
+    height: 35px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #000000; 
+    margin-top: 10px; 
+    margin-left: 12%; 
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 70%; 
+    height: 50%; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #000000; 
+    margin-top: 10px;  
+    margin-left: 12%;
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+label{
+    margin-left: 12%;
+  }
+#btnenviarform{
+    color: #000000;
+    margin-left: 12%;
+    width: 10vw;
+    height: 3vh;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+footer{
+width: 100vw;
+height: 10vh;
+background-color: black;
+text-align: center;
+padding-top: 2vh;
+}
+footer div a img{
+    width: 3vw;
+    height: 5vh;
+}
+.footerCajauno{
+
+}
+.footerCajados{
+
+}
+
+ul li a {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    
+}
+p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   ul li {
+    margin: 25%;
+   }
