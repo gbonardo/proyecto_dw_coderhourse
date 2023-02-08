@@ -1,16 +1,22 @@
-#footer{
-    height: 20vh;
-    color: white;
-   
-}
-
-#ul{
-    height: 5vh;
-    width: 30vw;
-    list-style-type: none;
+footer{
+    background-color: $color-footer;
+    #footer{
+       height: 20vh;
+       color: white;
+       
+       ul{
+         
+         #ul{
+         height: 5vh;
+         width: 40vw;
+         list-style-type: none;
+         
+          }
+         #ul li a img{
+         width: 3vw;
+         height: 5vh;
+         }
+        }
     
-}
-#ul li a img{
-    width: 3vw;
-    height: 5vh;
+  }
 }

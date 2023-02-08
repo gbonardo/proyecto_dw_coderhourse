@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Espacio para comunicaciones institucionales">
+    <meta name="keywords" contenido=" Comunicado, Beneficios, Fecha importante ">
+    <link rel="icon" type="image/jpg" href="./assets/iconos/logooo.jpg"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
@@ -15,13 +17,13 @@
     crossorigin="anonymous"> 
     <!--Estilo CSS-->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Tercera Entrega-Comunicacion Institucional</title>
+    <title>Comunicacion Institucional</title>
 </head>
 <body>
 
   <header class="container-fluid  fixed-top">
     <div id="header" class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div id="nav" class="container h-100">
             <a class="navbar-brand" href="./index.html">LOGOOO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,67 +35,160 @@
                   <a class="nav-link active" aria-current="page" href="./index.html">Comunicaciones</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/instructivos.html">Instructivos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/politicas.html">Políticas</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="./pages/beneficios.html">Beneficios</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="./pages/instructivos.html">Instructivos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/telefonos.html">Telefonos</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>               
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Más
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="./pages/politicas.html">Políticas</a></li>
+                    <li><a class="dropdown-item" href="./pages/prevencion.html">Prevención</a></li>
+                  </ul>
                 </li>
               </ul>
+               
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                 <button type="button" class="btn btn-outline-light">Buscar</button>
               </form>
             </div>
           </div>
+          
         </nav>
-    </div>
+        
+          
+        </div>
+      </div>
+  
   </header>
 
   <main class="container">
+    
     <div id="main" class="row">
          <section class="container-fluid">
            <div id="section" class="container">        
           <h2>Comunicaciones</h2>
+
           <article class="container">
-            <h4>Título</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Deleniti corporis tempore exercitationem aperiam ipsum 
-              illo unde totam vel vitae possimus, a repellat ipsam maxime
-               iusto placeat qui molestias quam nulla?</p>
-            <img src="./assets/images/imagen.jpg" class="img-fluid" alt="IMAGEN">
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, rerum. 
-              Enim dolor dolores suscipit ratione modi dolore! Illo, architecto modi 
-              explicabo deleniti neque necessitatibus unde expedita ipsam harum magnam sed!</p>   
+           
+            <div class="card text-center">
+              <div class="card-header">
+              Comunicado 
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Prevención, Protección y Asistencia de la violencia y el acoso laboral y/o sexual</h5>
+                <p class="card-text">Nuestra institución ha tomado el compromiso de trabajar en una cultura organizacional respetuosa de las personas y sus diferencias, y promover un clima laboral libre de violencias.</p>
+                <strong>¡Conocé los principios para construir relaciones sustentables!</strong>
+                <br>
+                <br>
+                <a href="./pages/prevencion.html" class="btn btn-outline-light">Leer más...</a>
+                <br>
+                <br>
+                <img id="imagenPrevencion" src="./assets/images/team-work.webp" class="img-fluid" alt="prevencion">
+              </div>
+              <div class="card-footer">
+                Publicado el viernes 03/02/2023
+              </div>
+            </div>
                
           </article>
+          <br>
           <article class="container">
-            <h4>Título</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-              Deleniti corporis tempore exercitationem aperiam ipsum 
-              illo unde totam vel vitae possimus, a repellat ipsam maxime
-               iusto placeat qui molestias quam nulla?</p>
-            <img src="./assets/images/imagen.jpg" class="img-fluid" alt="IMAGEN">
+           
+            <div class="card text-center">
+              <div class="card-header">
+                Descuento
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">¡Participá del sorteo para adquirir 2 entradas generales al precio de una!</h5>
+                <p class="card-text">Sorteamos 15 pares de entradas, para participar comenta en la publicación en Teams con quien irías.</p>
+                <img id="imagenBeneficio" src="./assets/images/banner-festival-cosquin-rock-2023-001_1_.webp" class="img-fluid" alt="beneficio">
+              </div>
+              <div class="card-footer">
+                Publicado el lunes 30/01/2023
+              </div>
+            </div>
+  
+              
+          </article>
+  
+          <br>
+          
+          <article class="container">
+            <div class="card text-center">
+              <div class="card-header">
+                Entradas gratis
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">¡Ganá entradas para Córdoba Open en el Polo Deportivo Kempes!</h5>
+                <p class="card-text">Sorteamos 10 pares de entradas para el día lunes 6/02 y para el martes 7/02. Para participar del sorteo realiza un comentario en la publicación en Teams.</p>
+                <img id="imagenBeneficio" src="./assets/images/cordobaopen2023.webp" class="img-fluid" alt="beneficio">
+              </div>
+              <div class="card-footer">
+                Publicado el miércoles 25/01/2023
+              </div>
+            </div>
+          </article>
+        <br>
+          <article class="container">
+       
+            <div class="card text-center">
+              <div class="card-header">
+                Fecha importante</div>
+              <div class="card-body">
+                <h5 class="card-title">Les deseamos Feliz Año Nuevo!</h5>
+                <p class="card-text">Gracias por formar parte de este gran año. <br>¡Brindamos por un 2023 con nuevos desafíos y buenos momentos!</p>
+                <img id="img-page-principal" src="./assets/images/Imagenes-feliz-anonuevo_1_.webp" class="img-fluid"  alt="fecha-importante">
+              </div>
+              <div class="card-footer">
+                Publicado el sábado 31/12/2022
+              </div>
+            </div>
+
+          </article>
+          
+            <br>
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, rerum. 
-              Enim dolor dolores suscipit ratione modi dolore! Illo, architecto modi 
-              explicabo deleniti neque necessitatibus unde expedita ipsam harum magnam sed!</p>   
+            <article class="container">
+
+            <div class="card text-center">
+              <div class="card-header">
+                Fecha importante</div>
+              <div class="card-body">
+                <h5 class="card-title">¡Feliz Navidad!</h5>
+                <p class="card-text">Deseamos que pases una hermosa noche buena y Feliz Navidad!</p>
+                <img id="img-page-principal" src="./assets/images/cover-photo-feliz-navidad-imagenes-1.webp" class="img-fluid"  alt="fecha-importante">
+              </div>
+              <div class="card-footer">
+                Publicado el sábado 24/12/2022 
+              </div>
+      
+            </div>
                
           </article>
+          <br>
         </div>  
-         </section>
+      </section>
     </div>
   </main>
 
-  <footer class="container-fluid bg-dark"> 
+  <footer class="container-fluid"> 
     <div id="footer" class="container pt-3">
-      <ul class="row justify-content-md-center">
+      <div class="row text-center">
+        <strong>Nuestras Redes</strong>
+      </div>
+      <br>
+      <ul class="row">
         <div id="ul" class="container d-flex justify-content-between align-items-center">
         <li>
           <a title="Youtube" href="https://www.youtube.com/" target="_blank"><img src="./assets/iconos/icons8-youtube-cuadrado.svg" class="img-fluid" alt="Youtube" /></a>
@@ -110,7 +205,7 @@
       </div>
       </ul>  
       <div class="row">
-        <p class="d-flex justify-content-center align-items-center">Copyright ® 2022 - Gastón Bonardo</p>
+        <p class="d-flex justify-content-center align-items-center">Copyright ® 2023 - Gastón Bonardo</p>
           </div> 
     </div>
   </footer>

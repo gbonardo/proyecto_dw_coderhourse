@@ -5,16 +5,19 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #808080; }
+  background-color: #144766; }
 
-#header {
+header {
   height: 10vh; }
-
-.navbar-brand {
-  border: 4px solid white;
-  animation-name: cambia-color;
-  animation-duration: 10s;
-  animation-timing-function: linear; }
+  header #header nav {
+    background-color: #052133; }
+    header #header nav #nav .navbar-brand {
+      border: 4px solid white;
+      animation-name: cambia-color;
+      animation-duration: 10s;
+      animation-timing-function: linear; }
+    header #header nav #nav .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+      color: white; }
 
 @keyframes cambia-color {
   0% {
@@ -30,39 +33,103 @@ body {
     background-color: black;
     color: white; } }
 
-#main {
+main {
   margin-top: 10vh;
-  height: 120vh;
-  background-color: #454545;
-  color: white; }
+  margin-bottom: 5vh; }
+  main #main {
+    height: auto;
+    color: white; }
+    main #main section #section {
+      width: 65vw;
+      height: auto; }
+      main #main section #section h2 {
+        text-align: center; }
+      main #main section #section table caption {
+        color: black; }
+      main #main section #section article {
+        width: 55vw;
+        height: auto; }
+        main #main section #section article .card {
+          background-color: #2E7099; }
+          main #main section #section article .card .card-footer {
+            text-align: center;
+            color: white; }
+        main #main section #section article .accordion {
+          background-color: #2E7099; }
+          main #main section #section article .accordion .accordion-item {
+            background-color: #2E7099;
+            border-color: gray; }
+            main #main section #section article .accordion .accordion-item .accordion-header {
+              color: white; }
+              main #main section #section article .accordion .accordion-item .accordion-header .accordion-button {
+                background-color: #144766;
+                color: white; }
+            main #main section #section article .accordion .accordion-item .accordion-body {
+              color: white; }
+      main #main section #section #table thead tr th {
+        color: white; }
 
-#section {
-  width: 60vw;
-  height: auto; }
-
-#footer {
-  height: 20vh;
-  color: white; }
-
-#ul {
-  height: 5vh;
-  width: 30vw;
-  list-style-type: none; }
-
-#ul li a img {
-  width: 3vw;
-  height: 5vh; }
-
-@media (max-width: 1000px) {
-  #section {
-    width: 90vw; }
-  #section article p {
+@media (max-width: 576px) {
+  main #main section #section {
+    width: 100%; }
+    main #main section #section #formularioContacto h4 {
+      font-size: medium; }
+    main #main section #section article {
+      width: 100%; }
+  footer #footer div strong {
+    font-size: small; }
+  footer #footer ul #ul {
+    width: 100%; }
+    footer #footer ul #ul li a img {
+      width: 5vw;
+      height: 8vh; }
+  footer #footer div p {
     font-size: small; } }
 
 @media (max-width: 768px) {
-  #ul li a img {
-    width: 10vw;
-    height: 15vh; } }
+  main #main section #section {
+    width: 100%; }
+    main #main section #section h2 {
+      font-size: large; }
+    main #main section #section article {
+      width: 100%; }
+      main #main section #section article h3 {
+        font-size: medium; }
+      main #main section #section article h4 {
+        font-size: medium; }
+      main #main section #section article p {
+        font-size: small; }
+      main #main section #section article .row div h3 {
+        font-size: medium; }
+      main #main section #section article .row div p {
+        font-size: small; }
+  footer #footer div strong {
+    font-size: small; }
+  footer #footer ul #ul {
+    width: 80vw; }
+    footer #footer ul #ul li a img {
+      width: 5vw;
+      height: 8vh; }
+  footer #footer div p {
+    font-size: small; } }
+
+@media (max-width: 1000px) {
+  main #main #section {
+    width: 90vw; }
+  main #main .card-header {
+    font-size: small; }
+  main #main .card-title {
+    font-size: large; }
+  main #main .card-text {
+    font-size: small; }
+  main #main .card-footer {
+    font-size: small; }
+  footer #footer div strong {
+    font-size: small; }
+  footer #footer ul #ul {
+    width: 60vw; }
+  footer #footer div p {
+    font-size: small; } }
 
 @media (max-height: 750px) {
   h2 {
@@ -89,3 +156,16 @@ body {
     height: 250vh; }
   #footer div p {
     font-size: small; } }
+
+footer {
+  background-color: #052133; }
+  footer #footer {
+    height: 20vh;
+    color: white; }
+    footer #footer ul #ul {
+      height: 5vh;
+      width: 40vw;
+      list-style-type: none; }
+    footer #footer ul #ul li a img {
+      width: 3vw;
+      height: 5vh; }

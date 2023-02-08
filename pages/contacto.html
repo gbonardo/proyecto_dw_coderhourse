@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Espacio para contactar con responsables de comunicaciones de la institución">
+    <meta name="keywords" contenido="Formulario, Contacto">
+    <link rel="icon" type="image/jpg" href="../assets/iconos/logooo.jpg"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet"> 
@@ -15,12 +17,12 @@
      crossorigin="anonymous"> 
      <!--Estilo CSS-->
      <link rel="stylesheet" href="../css/style.css">
-     <title>Tercera Entrega-Contacto</title>
+     <title>Contacto</title>
 </head>
 <body>
     <header class="container-fluid fixed-top">
         <div id="header" class="row">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
               <div id="nav" class="container h-100">
                 <a class="navbar-brand" href="../index.html">LOGOOO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +34,25 @@
                       <a class="nav-link active" aria-current="page" href="../index.html">Comunicaciones</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="../pages/instructivos.html">Instructivos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/politicas.html">Políticas</a>
-                    </li>
-                    <li class="nav-item">
                       <a class="nav-link" href="../pages/beneficios.html">Beneficios</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="../pages/instructivos.html">Instructivos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/telefonos.html">Telefonos</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                    </li>               
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Más
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="../pages/politicas.html">Políticas</a></li>
+                            <li><a class="dropdown-item" href="../pages/prevencion.html">Prevención</a></li>
+                       </ul>
                     </li>
                   </ul>
                   <form class="d-flex" role="search">
@@ -53,9 +64,9 @@
             </nav>
         </div>
       </header>
-<main class="container">
+<main class="container" style="margin-top: 15vh; margin-bottom: 15vh;">
   <div id="main" class="row">
-    <section class="d-flex">
+    <section id="sectionContacto" class="d-flex">
         <div id="section" class="container pt-5">  
         <h2>Formulario de contacto</h2>
         <div id="formularioContacto" class="container">
@@ -72,7 +83,7 @@
                       <label for="exampleFormControlInput1" class="form-label">Apellido*</label>
                       <input type="text" class="form-control" placeholder="" aria-label="Last name">
                     </div>
-                  </div>
+                  
                   <div class="mb-4">
                     <label for="exampleFormControlInput1" class="form-label">Email*</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
@@ -81,17 +92,22 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje*</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
+                </div>
                   <button type="button" class="btn btn-outline-light">Enviar</button>
-
-        </form>
+                </form>
+          </div>
         </div>
              
     </section>
-
+    <br>
     </main>
 
-    <footer class="container-fluid bg-dark"> 
+    <footer class="container-fluid"> 
       <div id="footer" class="container pt-3">
+        <div class="row text-center">
+          <strong>Nuestras Redes</strong>
+        </div>
+        <br>
         <ul class="row justify-content-md-center">
           <div id="ul" class="container d-flex justify-content-between align-items-center">
           <li>
@@ -109,7 +125,7 @@
         </div>
         </ul>  
         <div class="row">
-          <p class="d-flex justify-content-center align-items-center">Copyright ® 2022 - Gastón Bonardo</p>
+          <p class="d-flex justify-content-center align-items-center">Copyright ® 2023 - Gastón Bonardo</p>
             </div> 
       </div>
     </footer>
